@@ -1,0 +1,53 @@
+<HTML LANG="es-ES">  <!-- Lenguaje Español Inicio-->
+<head>
+		<title> CE: AIRE </title>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<link rel="icon" type="image/png" href="icon/imagen.png"> <!-- Favicon -->
+           		<style type="text/css">
+					#elementos{
+						heigth:600px;
+						width:160px;
+						display:inline-block;
+						overflow-y:auto;
+						float:left;
+					}
+
+					#elementos a{
+						pedding:20px;
+					}
+			
+					#visualizar{
+						heigth:600px;
+						width:400px;
+						display:inline-block;
+					}
+				</style>
+		</head>
+
+		<body bgcolor="#CC00CC">
+				<div id="elementos">
+                	<a href="../Quimica/elementos/11" onClick="return roll(this.href)"><img src="../Quimica/elementos/1.png" width="50" legth="50">
+					<a href="../Quimica/elementos/21" onClick="return roll(this.href)"><img src="../Quimica/elementos/2.png" width="50" legth="50">
+                    <a href="../Quimica/elementos/61" onClick="return roll(this.href)"><img src="../Quimica/elementos/6.png" width="50" legth="50">
+                    <a href="../Quimica/elementos/71" onClick="return roll(this.href)"><img src="../Quimica/elementos/7.png" width="50" legth="50">
+                    <a href="../Quimica/elementos/81" onClick="return roll(this.href)"><img src="../Quimica/elementos/8.png" width="50" legth="50">
+                    <a href="../Quimica/elementos/101" onClick="return roll(this.href)"><img src="../Quimica/elementos/10.png" width="50" legth="50">
+                    <a href="../Quimica/elementos/181" onClick="return roll(this.href)"><img src="../Quimica/elementos/18.png" width="50" legth="50">
+                    <a href="../Quimica/elementos/361" onClick="return roll(this.href)"><img src="../Quimica/elementos/36.png" width="50" legth="50">
+                    <a href="../Quimica/elementos/541" onClick="return roll(this.href)"><img src="../Quimica/elementos/54.png" width="50" legth="50">
+                    <a href="../Quimica/elementos/861" onClick="return roll(this.href)"><img src="../Quimica/elementos/86.png" width="50" legth="50">
+        </div>
+		        
+                <div id="visualizar">
+               	   <object width="731" height="600"></object>
+                 </div>
+					<script type="text/javascript">
+						function roll(url)
+							{
+							document.getElementById("visualizar").innerHTML='<object width="400" height="600"><img src="' + url + '.png"></object>';
+							return false;
+							}
+					</script>
+		</body>
+        
+</html>
